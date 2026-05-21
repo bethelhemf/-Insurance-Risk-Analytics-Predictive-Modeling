@@ -1,0 +1,19 @@
+# DVC
+.dvc/cache/
+.dvc/tmp/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env/
+
+# VS Code
+.vscode/
+
+# Data
+data/
+
+data/*
+!data/*.dvc
+!data/.gitkeep
