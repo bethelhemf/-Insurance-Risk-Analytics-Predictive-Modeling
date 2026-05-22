@@ -204,6 +204,26 @@ The project includes a GitHub Actions CI pipeline that automatically:
 
 This ensures code quality and reproducibility across environments.
 
+## DVC Pipeline Reproducibility
+
+### Initialize Environment
+```bash
+pip install -r requirements.txt
+```
+
+### Initialize DVC
+```bash
+dvc init
+```
+
+### Pull Data
+```bash
+dvc pull
+```
+
+### Reproduce Data Pipeline
+Raw and cleaned datasets are tracked using DVC with local remote storage.
+
 ---
 
 # Author
