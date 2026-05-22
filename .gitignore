@@ -2,18 +2,20 @@
 .dvc/cache/
 .dvc/tmp/
 
-# Python
+# Python / Virtual Environments
 __pycache__/
 *.pyc
+.venv/
 venv/
-.env/
+.env
 
 # VS Code
 .vscode/
 
-# Data
-data/
-
+# Data Tracking (The DVC way)
+# Ignore all files in data/
 data/*
+# But DO NOT ignore the .dvc pointer files
 !data/*.dvc
+# DO NOT ignore the .gitkeep file
 !data/.gitkeep
