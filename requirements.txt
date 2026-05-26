@@ -3,7 +3,8 @@ numpy
 matplotlib
 seaborn
 scikit-learn
+xgboost
+shap
 pytest
 flake8
 dvc
-EOF
